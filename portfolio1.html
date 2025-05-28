@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio1.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>B</span>isma.</h2>
+        <nav class="navigation">
+            <a href="#home" class="active" >Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#Services" class="active">Services</a>
+            <a href="#portfolio" class="active">Portfolio</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <!-- <p><i>Web developer</i></p> -->
+            <h2>Hi, I'm <span>Bisma</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Creative and detail-oriented skilled in building responsive, user-friendly websites.</p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="#">See Projects</a>
+            </div>
+            
+        </div>
+        <div>
+          <img src="/iimage.png" alt="" class="iiii">
+        </div>
+    </section>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/imagess.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="title">About me</h1>
+                <br>
+                  <p class="p">I'm a passionate Front-End Developer with a strong eye for detail and a love for clean, efficient code.</p>
+I specialize in building responsive, user-friendly interfaces using HTML, CSS, JavaScript, and frameworks like React.
+My goal is to create seamless digital experiences that not only look great but also perform flawlessly.
+    I enjoy turning complex problems into simple, intuitive designs that users love.
+    With every project, I focus on performance, accessibility, and modern best practices.
+    I’m always learning and excited to collaborate on new freelance opportunities.</p>
+    <div class="skill">
+   
+
+         <p class="s" onclick="opentab('skills', this)">Skills</p>
+<p class="s" onclick="opentab('experiences', this)">Experiences</p>
+<p class="s" onclick="opentab('education', this)">Education</p>
+
+  
+    </div>
+    <div class="contents" id="skills">
+        <ul>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+             <li><span>Web Development</span><br>Web app Development</li>
+        </ul>
+    </div>
+  <div class="contents" id="experiences">
+     <ul>    
+    <li><span>Jan 2025 – Current</span></li>
+    <p>Worked with multiple clients to design and build responsive websites using HTML, CSS, JavaScript, and React. Delivered fast, SEO-optimized, and visually polished projects tailored to each client's needs.</p>
+    <li><span>2023-2024</span> <br>Training at The Skills Institute</li>
+    <p>Assisted in developing UI components using React and Tailwind CSS. Collaborated with designers and back-end developers to implement clean, pixel-perfect interfaces</p>
+     </ul>
+  </div>
+</section>
+
+    <div class="contents" id="education">
+        <ul>
+            <li><span>2023-2027</span><br>Bachelor's in Computer Science</li>
+             <li><span>The University Of Faisalabad</span></li>
+        </ul>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Services">
+    <div class="container">
+        <h1 class="service">My Services</h1>
+        <div class="services-list">
+            <div class="w">
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Responsive Design</h2>
+                <p>I design websites that look great on all devices desktops, tablets, and smartphones using modern design principles.</p>
+    <a href="">Learn more</a>
+            </div>
+                     <div class="w">
+                       <i class="fa-solid fa-code"></i> 
+                <h2>Front-End Development</h2>
+                <p>I build fast, interactive websites using HTML, CSS, JavaScript, and React. Clean code and smooth UI are my priorities.</p>
+    <a href="">Learn more</a>
+            </div>
+                     <div class="w">
+                        <i class="fa-solid fa-gears"></i>
+                <h2>Website Maintenance</h2>
+                <p>Need regular updates, fixes, or performance optimization? I keep websites running smoothly and securely.</p>
+    <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+     <div id="portfolio">
+    <div class="container">
+        <h1 class="Portfolio">My Work</h1>
+        <div class="work-list">
+            <div class="work k">
+                <img src="/download.jpg" alt="" class="i">
+                <p>I design & build responsive websites that blend creativity with functionality optimized for performance and user experience.</p>
+
+            </div>
+               <div class="work k">
+                <img src="/images (2).jpg" alt="" class="ii">
+                <p>I create visually striking, user-friendly websites that bring creativity and purpose together on every screen.</p>
+               </div>
+               <div class="work k">
+                <img src="/images (3).jpg" alt="" class="iii">
+                <p>Every project I create is crafted with clean code, modern design, and a focus on usability across all devices.</p>
+        </div>
+       
+
+        </div>
+ <a href="" class="b">See more</a>
+</div>
+
+      <!-- Contact -->
+
+ <section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-left">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+        <p><i class="fas fa-phone-alt"></i> 0123456789</p>
+        <br>
+        <a href="your-cv.pdf" class="btnn" download>Download CV</a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btnnn">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 | Designed with ❤️ by <strong>Bisma</strong></p>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+function opentab(tabId, element) {
+  var contents = document.getElementsByClassName('contents');
+  for (var i = 0; i < contents.length; i++) {
+    contents[i].style.display = 'none';
+  }
+
+  var tabs = document.getElementsByClassName('s');
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].classList.remove('active-tab');
+  }
+
+  document.getElementById(tabId).style.display = 'block';
+  element.classList.add('active-tab');
+}
+
+
+// Show 'skills' tab by default on load
+window.onload = function () {
+  opentab('skills');
+};
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Your message has been sent!");
+  this.reset();
+});
+
+// window.onload = function () {
+//   var skillsTab = document.querySelector('.s[onclick*="skills"]');
+//   opentab('skills', skillsTab);
+// };
+window.onload = function () {
+  var skillsTab = document.querySelector('.s[onclick*="skills"]');
+  opentab('skills', skillsTab);
+
+  var form = document.getElementById("contact-form");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Your message has been sent!");
+      this.reset();
+    });
+  }
+};
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+    <!-- /* background: linear-gradient(140deg,#cb202d, #971b7c, #3366cc); */ -->
+    <!-- /* background: linear-gradient(130deg, rgb(184, 94, 4),purple, green, rgb(120, 35, 190)); */ -->
